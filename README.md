@@ -10,6 +10,7 @@ A set of scripts to do the following:
   -Email notification pre and post patching efforts to business owners
   -Centralized patching efforts connected to cron for scheduling
   -Report generation on patching efforts
+  -Basic errata update attempt
 
 The current scripts are configured to use a central MySQL database to pull server and group information to sync with the Spacewalk database. Configuration files are also used to list exceptions and server groups for execution of patching events. 
 
